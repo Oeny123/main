@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    height: 10vh;
+    background-color: gray;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+nav div {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+nav a {   
+    font-size: 3vh;
+    color: white;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+}
+.wrapper div {
+    margin: 0 auto 0 auto;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.introduction {
+    width: 60%;
+}
+.aboutme p {
+    font-size: 13px;
+}
+.whatido {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: left;
+}
+.whatido div {
+    width: 45%;
+    height: 20vh;
+    border-radius: 10px;
+    background-color: gray;
+    overflow-y: scroll;
+    margin-top: 20px;
+    box-sizing: content-box;
+    margin: 10px auto 0 0;
+    padding: 10px;
+    
+}
+.whatido div p {
+    font-size: 13px;
+}
+
+.profile {
+    width: 30%;
+}
+.profile div {
+    text-align: center
+}
+.profile p {
+    font: 13px;
+} 
+.profile a {
+    text-decoration: none;
+    color: rgb(30, 116, 116);
+}
+.dlsv  {
+    padding: 5px;
+    font-size: 15px;
+    background-color: gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dlsv button {
+    cursor: pointer;
+}
+.enfo {
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.dl {
+    border: 0;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 0; 
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: wheat;
+}
+
+
+.flexed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+
+
+
+
+
+/* Portfolio ================================================================================================================== */
+.p-wrapper {
+    width: 90%;
+    margin: 10px auto 0 auto;
+}
+.conteiner p {
+    font-size: 40px;
+}
+hr {
+    width: 100%;
+}
+
+.gs {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gs a {
+    width: 25%;
+    margin: auto;
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: gray;
+}
