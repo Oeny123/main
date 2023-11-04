@@ -29,6 +29,7 @@ nav a {
     width: 90%;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 10px;
 }
 .wrapper div {
@@ -146,4 +147,33 @@ hr {
     font-size: 2.5rem;
     text-decoration: none;
     color: gray;
+}
+
+@media (max-width: 840px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .profile {
+        width: 100%;
+    }
+    .introduction {
+        width: 100%;
+    }
+}
+@media (max-width: 680px) {
+    .gs a {
+        width: 40%;
+        font-size: 2rem;
+    }
+}
+@media (max-width: 480px) {
+    .whatido div {
+        width: 90%;
+    }
+}
+@media (max-width: 380px) {
+    .gs a {
+        width: 80%;
+    }
 }
