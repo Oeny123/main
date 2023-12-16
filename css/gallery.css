@@ -10,7 +10,7 @@ img {
 	vertical-align: middle;
 	display: inline-block;
 }
-.grid-wrapper > div {
+.grid-wrapper > div{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -20,6 +20,8 @@ img {
 	height: 100%;
 	object-fit: cover;
 	border-radius: 5px;
+	padding: 10px;
+	border-radius: 10px;
 }
 
 .grid-wrapper {

@@ -116,9 +116,11 @@ nav a {
 
 .flexed {
     display: flex;
-    flex-wrap: wrap;
     justify-content: start;
     align-items: center;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
 }
 
 
@@ -129,6 +131,7 @@ nav a {
 .p-wrapper {
     width: 90%;
     margin: 10px auto 0 auto;
+    width: 100%;
 }
 .conteiner p {
     font-size: 40px;
@@ -153,6 +156,8 @@ hr {
     .wrapper {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        padding: 1px;
     }
     .profile {
         width: 100%;
@@ -177,3 +182,6 @@ hr {
         width: 80%;
     }
 }
+
+
+
