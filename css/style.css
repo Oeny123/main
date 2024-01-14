@@ -143,11 +143,12 @@ hr {
 .gs {
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
+    width: 90%;
 }
 .gs a {
-    width: 25%;
-    margin: auto;
-    font-size: 2.5rem;
+    width: 100px;
+    margin: 10px;
     text-decoration: none;
     color: gray;
 }
